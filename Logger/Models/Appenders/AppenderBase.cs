@@ -33,6 +33,6 @@
             }
         }
 
-        public abstract void Append(IMessage message);
+        public abstract void Append(IReport message);
     }
 }

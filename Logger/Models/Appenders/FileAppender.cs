@@ -31,9 +31,9 @@
             }
         }
 
-        public override void Append(IMessage message)
+        public override void Append(IReport message)
         {
-            if (message.ReportLevel >= this.ReportLevel)
+            if (message.Level >= this.ReportLevel)
             {
                 using (var writer = new StreamWriter(this.File, true))
                 {

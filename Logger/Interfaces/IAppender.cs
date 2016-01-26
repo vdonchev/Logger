@@ -6,6 +6,6 @@
     {
         ReportLevel ReportLevel { get; set; }
 
-        void Append(IMessage message);
+        void Append(IReport report);
     }
 }

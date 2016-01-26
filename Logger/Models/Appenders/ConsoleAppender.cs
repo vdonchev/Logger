@@ -10,11 +10,11 @@
         {
         }
 
-        public override void Append(IMessage message)
+        public override void Append(IReport report)
         {
-            if (message.ReportLevel >= this.ReportLevel)
+            if (report.Level >= this.ReportLevel)
             {
-                var formattedMsg = this.Layout.Format(message);
+                var formattedMsg = this.Layout.Format(report);
 
                 Console.WriteLine(formattedMsg);
             }

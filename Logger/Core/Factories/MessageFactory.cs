@@ -7,9 +7,9 @@
 
     public static class MessageFactory
     {
-        public static IMessage Create(DateTime date, ReportLevel reportLevel, string messageText)
+        public static IReport Create(DateTime date, ReportLevel reportLevel, string messageText)
         {
-            IMessage message = new Message(date, reportLevel, messageText);
+            IReport message = new Report(date, reportLevel, messageText);
 
             return message;
         }

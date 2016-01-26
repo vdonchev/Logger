@@ -2,6 +2,6 @@
 {
     public interface ILayout
     {
-        string Format(IMessage msgToFormat);
+        string Format(IReport reportToFormat);
     }
 }

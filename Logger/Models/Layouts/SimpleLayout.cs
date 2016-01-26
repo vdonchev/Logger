@@ -4,9 +4,9 @@
 
     public class SimpleLayout : ILayout
     {
-        public string Format(IMessage msgToFormat)
+        public string Format(IReport reportToFormat)
         {
-            var formattedMessage = $"{msgToFormat.Date} - {msgToFormat.ReportLevel} - {msgToFormat.MessageText}";
+            var formattedMessage = $"{reportToFormat.Date} - {reportToFormat.Level} - {reportToFormat.Text}";
 
             return formattedMessage;
         }

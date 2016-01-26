@@ -3,12 +3,12 @@
     using System;
     using Enums;
 
-    public interface IMessage
+    public interface IReport
     {
         DateTime Date { get; }
 
-        ReportLevel ReportLevel { get; }
+        ReportLevel Level { get; }
 
-        string MessageText { get; }
+        string Text { get; }
     }
 }

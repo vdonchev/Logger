@@ -54,12 +54,12 @@
     <Compile Include="Interfaces\IAppender.cs" />
     <Compile Include="Interfaces\ILayout.cs" />
     <Compile Include="Interfaces\ILogger.cs" />
+    <Compile Include="Interfaces\IReport.cs" />
     <Compile Include="Models\Appenders\AppenderBase.cs" />
     <Compile Include="Models\Appenders\ConsoleAppender.cs" />
-    <Compile Include="Interfaces\IMessage.cs" />
     <Compile Include="Models\Appenders\FileAppender.cs" />
     <Compile Include="Models\Layouts\SimpleLayout.cs" />
-    <Compile Include="Models\Message.cs" />
+    <Compile Include="Models\Report.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
